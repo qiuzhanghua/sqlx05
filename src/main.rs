@@ -2,7 +2,7 @@ use dotenv::dotenv;
 use std::env;
 
 use sqlx::any::AnyPoolOptions;
-use sqlx::{Connection, Row};
+use sqlx::Connection;
 
 #[tokio::main]
 async fn main() -> Result<(), sqlx::Error> {
